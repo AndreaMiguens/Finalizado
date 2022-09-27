@@ -1,0 +1,34 @@
+/*header{
+   background-color: darkgrey;
+}
+todo lo que use el contenedor div aparecera del mismo color, le
+da el mismo estilo a las mismas etiquetas*/
+/*div{
+    background-color: darkgrey;
+}
+el header es mas especificog
+*/
+header div{ 
+    background-color: aqua;
+    text-align: center;
+}
+div{
+    background-color: darkgrey;
+}
+div{
+    background-color: rgba(194, 55, 159, 0.808);
+}
+/* .Clase , selector de clases para color
+*/
+.bgCeleste{
+    background-color: aquamarine;
+}
+.bgGrisOscuro{
+    background-color: darkgray;
+}
+header .bgGrisClaro{
+    background-color: rgb(150, 146, 146);
+}
+.contenedorheader #divHijodosHeader{
+    background-color: cornflowerblue;
+}
